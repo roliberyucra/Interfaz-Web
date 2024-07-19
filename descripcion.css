@@ -1,0 +1,219 @@
+
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+.body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: auto;
+    min-width: 90%;
+    height: auto;
+    min-height: 607px;
+    background-color: black;
+}
+
+.bloque, .bloque, .bloque{
+    display: flex;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 30%;
+    height: 100px;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu{
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bloque1, .bloque11, .bloque111, .bloque1111{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 20%;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.bloque2{
+    margin: 10px;
+    border: 0;
+    padding: 0;
+    width: 90%;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.bloque3, .bloque33{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 45%;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#contenido{
+    display: flex;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    min-height: 460px;
+    background-color: skyblue;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#imagen{
+    display: flex;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 40%;
+    height: 50%;
+    min-height: 150px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagengrande{
+    margin: 20px;
+    width: 90%;
+    height: 430px;
+    background-color: grey;
+    border-radius: 50px;
+}
+
+.imagenpeque{
+    margin: 0 20px 20px 20px;
+    width: 90%;
+    height: 130px;
+    background-color: grey;
+    border-radius: 50px;
+}
+
+
+#descripcion{
+    display: flex;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 60%;
+    height: auto;
+    min-height: 150px;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caracteres{
+    display: flex;
+    margin: 20px;
+    border: 0;
+    padding: 0;
+    width: 70%;
+    height: 270px;
+    background-color: grey;
+    border-radius: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.precio{
+    display: flex;
+    margin: 0 20px 20px 20px;
+    border: 0;
+    padding: 0;
+    width: 70%;
+    height: 130px;
+    background-color: grey;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton:hover{
+    background-color: green;
+    color: black;
+}
+
+.boton{
+    display: flex;
+    margin: 0 20px 20px 20px;
+    border: 0;
+    padding: 0;
+    width: 25%;
+    height: 50px;
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+#informacion{
+    display: flex;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    justify-content: space-around;
+    color: black;
+}
+
+.info{
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.info:hover{
+    background-color: green;
+}
+
+.footer{
+    display: flex;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer1{
+    width: 33%;
+    height: 280px;
+    background-color: black;
+}
+
+.footer1:hover{
+    background-color: grey;
+}
